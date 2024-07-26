@@ -1,0 +1,23 @@
+.navbar-custom {
+  background-color: red;
+  width: 100%;
+}
+
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand {
+  color: white;
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .navbar-brand:hover {
+  color: lightgray;
+}
+
+.navbar-custom .nav-link {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-custom .nav-link mat-icon {
+  margin-right: 5px;
+}

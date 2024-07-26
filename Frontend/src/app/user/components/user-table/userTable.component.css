@@ -1,0 +1,45 @@
+.auth-tabs-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.table-card {
+  width: 80%;
+  margin: 20px 0;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.table-header {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 10px;
+}
+
+.mat-form-field {
+  width: 300px;
+}
+
+.mat-elevation-z8 {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table {
+  width: 100%;
+}
+
+th.mat-header-cell {
+  background-color: red;
+}
+
+td.mat-cell {
+  white-space: nowrap;
+}
+
+.mat-paginator {
+  margin-top: 10px;
+}
+
+

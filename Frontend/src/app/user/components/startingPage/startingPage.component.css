@@ -1,0 +1,45 @@
+.auth-tabs-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.custom-tab-group {
+  width: 100%;
+  max-width: 600px;
+}
+
+.tab-content {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+::ng-deep .custom-tab-group .mat-tab-label-active .mat-tab-label-content {
+  color: red !important;
+}
+
+::ng-deep .custom-tab-group .mat-ink-bar {
+  background-color: red !important;
+  height: 2px;
+  width: 100%;
+}
+
+::ng-deep .mat-ink-bar{
+  background-color: red !important;
+  height: 2px;
+  width: 100%;
+}
+
+::ng-deep .custom-tab-group .mat-tab-label {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+::ng-deep .custom-tab-group .mat-tab-label-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
