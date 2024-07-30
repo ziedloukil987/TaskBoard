@@ -1,3 +1,14 @@
+.background-container{
+  background-image: url(https://www.younggenerationshop.com/cdn/shop/products/Big-Class-Desk-Calendar-Calendar-Notes-Business-Office-Desk-Calendar-Pad_1024x1024.jpg?v=1620631627);
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the background image from repeating */
+  height: 100vh; /* Makes the container cover the entire viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .auth-tabs-container {
   display: flex;
   justify-content: center;
